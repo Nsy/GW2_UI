@@ -821,6 +821,12 @@ local function LoadSettings()
         "GwSettingsModuleOption"
     )
     addOption(
+        GwLocalization["XPBAR_OPTION"],
+        GwLocalization["XPBAR_DESC"],
+        "XPBAR_ENABLED",
+        "GwSettingsModuleOption"
+    )
+    addOption(
         GwLocalization["CLASS_POWER"],
         GwLocalization["CLASS_POWER_DESC"],
         "CLASS_POWER",

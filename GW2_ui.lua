@@ -431,7 +431,9 @@ local function gw_OnEvent(self, event, name)
     GW.LoadHudArt()
 
     --Create experiencebar
-    GW.LoadXPBar()
+    if GetSetting("XPBAR_ENABLED") then
+        GW.LoadXPBar()
+    end
 
     if GetSetting("FONTS_ENABLED") then
         GW.LoadFonts()
